@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software-Themed Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            color: #1a237e;
+            background: linear-gradient(135deg, #89CFF0, #DDA0DD, #FFB6C1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #1a237e;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-size: 1rem;
+            margin-top: 10px;
+            color: #4527a0;
+        }
+
+        section {
+            width: 90%;
+            max-width: 800px;
+            background: #ffffff;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #283593;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            color: #303f9f;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #89CFF0, #DDA0DD);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: linear-gradient(135deg, #DDA0DD, #FFB6C1);
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #d81b60;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+
+            .btn {
+                font-size: 0.9rem;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello, I'm <span class="highlight">Sienna</span></h1>
+        <p>A Computer Engineering Student passionate about crafting efficient solutions.</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm currently pursuing my degree in Computer Engineering. I have a strong interest in web development, problem-solving, and exploring innovative technologies.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Online Train Ticket Booking System</li>
+            <li>Interactive Personal Portfolio Website</li>
+            <li>Responsive Web Design for E-Commerce</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Bootstrap, Responsive Design</li>
+            <li>C++, Python</li>
+            <li>Problem-solving and Debugging</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to connect with me on:</p>
+        <ul>
+            <li><a href="#" class="btn">LinkedIn</a></li>
+            <li><a href="https://github.com/sienna5099" class="btn">GitHub</a></li>
+            <li><a href="mailto:sienna@example.com" class="btn">Email Me</a></li>
+        </ul>
+    </section>
+</body>
+</html>
+
+  
